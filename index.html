@@ -14,6 +14,7 @@
             extend: {
               colors: {
                 vectorcolor:'#ABEF5F',
+                bgcolor:'#F4F4F4',
                 },
               backgroundImage:{
                  
@@ -28,6 +29,7 @@
 <!-- NavBar -->
  <nav class="container mx-auto bg-base-100">
     <div class="navbar">
+
       <!-- Vector Symbol -->
       <div class="flex items-center justify-center p-2 bg-vectorcolor rounded-full">
         <svg
@@ -57,6 +59,7 @@
         </svg>
       </div>
     <!-- Vector Symbol End -->
+
         <div class="navbar-start">
           <a class="btn btn-ghost text-xl">Rinterio</a>
         </div>
@@ -69,6 +72,7 @@
               <li><a>Contact Us</a></li>
           </ul>
         </div>
+
         <!-- Mobile Devices Nav Menu Right side -->
         <div class="navbar-end gap-10">
             <div class="indicator hidden gap-5 lg:flex md:flex">
@@ -99,6 +103,7 @@
                     d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
+
           <!-- Book Consult Button Start-->
               <a class="btn rounded-[32px] bg-vectorcolor text-black hidden lg:flex flex-row-reverse md:flex"><span class="bg-black rounded-3xl p-[2px]"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="Group 1">
@@ -107,6 +112,7 @@
                 </g>
                 </svg></span>Book Consult</a> 
           <!--Book Consult Button End-->
+
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
                   <svg 
@@ -164,7 +170,7 @@
 
 <main>
 <!-- Design Section -->
-<section class="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8 py-12 px-4 lg:px-16 bg-gray-200">
+<section class="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8 py-12 px-4 lg:px-16 bg-bgcolor">
   <div class="lg:w-1/2 space-y-6">
     <div>
       <img src="./assets/Vector.png" alt="" class="mb-5 hidden lg:flex">
@@ -185,7 +191,7 @@
     <!-- Cards Container -->
     <div class="space-y-6">
       <!-- Card 1 -->
-      <div class="flex items-center bg-white rounded-lg shadow-lg p-4">
+      <div class="flex items-center bg-white rounded-lg p-4">
         <img src="./assets/commercial.png" alt="Card Image 1" class="w-24 h-24 object-cover rounded-lg mr-4">
         <div>
           <h4 class="text-lg font-semibold text-gray-800">Commercial</h4>
@@ -196,7 +202,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="flex items-center bg-white rounded-lg shadow-lg p-4">
+      <div class="flex items-center bg-white rounded-lg p-4">
         <img src="./assets/residential.png" alt="Card Image 2" class="w-24 h-24 object-cover rounded-lg mr-4">
         <div>
           <h4 class="text-lg font-semibold text-gray-800">Residential</h4>
@@ -216,7 +222,7 @@
   <!-- Design Section End -->
 
 <!-- Clients Section -->
-<section class="py-12 px-4 lg:px-16 bg-gray-200">
+<section class="py-12 px-4 lg:px-16 bg-bgcolor">
  
   <div class="bg-white p-8 rounded-lg">
    
@@ -252,9 +258,133 @@
   </div>
 </section>
 <!-- Clients Section End -->
+
+<!-- Work Section -->
+<section class="py-12 px-4 lg:px-16 bg-bgcolor">
+  <!-- Heading and Paragraph -->
+  <div class="text-center mb-12">
+    <h1 class="text-4xl font-bold text-gray-800 mb-4">Our Services</h1>
+    <p class="text-lg text-gray-600">We offer a range of services to meet your design needs.</p>
+  </div>
+
+  <!-- Cards Container -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <!-- Card 1 -->
+    <div class="p-8 rounded-lg shadow-lg text-white" style="background-color: #ff6f61;">
+      <img src="path/to/icon1.png" alt="Icon 1" class="w-10 h-10 mb-4">
+      <h3 class="text-2xl font-semibold mb-2">Interior Design</h3>
+      <p>Creating beautiful interiors that reflect your style.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="p-8 rounded-lg shadow-lg text-white" style="background-color: #6a5acd;">
+      <img src="path/to/icon2.png" alt="Icon 2" class="w-10 h-10 mb-4">
+      <h3 class="text-2xl font-semibold mb-2">Architectural Planning</h3>
+      <p>Thoughtful planning for functional spaces.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="p-8 rounded-lg shadow-lg text-white" style="background-color: #20b2aa;">
+      <img src="path/to/icon3.png" alt="Icon 3" class="w-10 h-10 mb-4">
+      <h3 class="text-2xl font-semibold mb-2">Furniture Design</h3>
+      <p>Custom furniture crafted to fit your home.</p>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="p-8 rounded-lg shadow-lg text-white" style="background-color: #ffa07a;">
+      <img src="path/to/icon4.png" alt="Icon 4" class="w-10 h-10 mb-4">
+      <h3 class="text-2xl font-semibold mb-2">Landscape Design</h3>
+      <p>Outdoor spaces tailored to your lifestyle.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Work Section End -->
+
+<!-- Article Section -->
+<section class="py-12 px-4 lg:px-16 bg-bgcolor">
+  <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
+    <!-- Card 1 -->
+    <div class="p-8 rounded-lg shadow-lg text-white">
+      <img src="path/to/icon1.png" alt="Icon 1" class="w-10 h-10 mb-4">
+      <h3 class="text-2xl font-semibold mb-2">Interior Design</h3>
+      <p>Creating beautiful interiors that reflect your style.</p>
+    </div>
+
+    <div class="p-8 rounded-lg shadow-lg text-white">
+      <img src="path/to/icon1.png" alt="Icon 1" class="w-10 h-10 mb-4">
+      <h3 class="text-2xl font-semibold mb-2">Interior Design</h3>
+      <p>Creating beautiful interiors that reflect your style.</p>
+    </div>
+
+    <div class="p-8 rounded-lg shadow-lg text-white">
+      <img src="path/to/icon1.png" alt="Icon 1" class="w-10 h-10 mb-4">
+      <h3 class="text-2xl font-semibold mb-2">Interior Design</h3>
+      <p>Creating beautiful interiors that reflect your style.</p>
+    </div>
+  </div>
+</section>
+
+ <!-- Article Section End  -->
+
+<!-- Discuss Form Section -->
+ <section>
+  <div class="min-h-screen flex items-center justify-center bg-bgcolor my-2">
+    <form class="w-full max-w-lg bg-white p-8 space-y-4">
+      <!-- First Row: First Name & Last Name -->
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
+          <input type="text" id="firstName" placeholder="First Name" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+        <div>
+          <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
+          <input type="text" id="lastName" placeholder="Last Name" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+      </div>
+  
+      <!-- Second Row: Phone Number & Email -->
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+          <input type="text" id="phone" placeholder="Phone Number" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
+          <input type="email" id="email" placeholder="E-mail" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+      </div>
+  
+      <!-- Message Field -->
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700">Write your message here</label>
+        <textarea id="message" placeholder="Write your message here" class="mt-1 w-full h-32 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+      </div>
+  
+      <!-- Send Button -->
+      <button type="submit" class="w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Send</button>
+    </form>
+  </div>
+  
+ </section>
+ <!-- Discuss Section End -->
 </main>
-<footer>
-    
+
+<footer class="py-8 bg-black text-white">
+  <!-- Centered Paragraph -->
+  <div class="text-center mb-4">
+    <p class="text-lg">This is a sample footer text that runs in two lines.</p>
+    <p>Providing quality services for your design needs.</p>
+  </div>
+
+  <!-- Navigation Links -->
+  <div class="flex justify-center gap-8 space-x-6">
+    <a href="#" class="hover:underline">Home</a>
+    <a href="#" class="hover:underline">Service</a>
+    <a href="#" class="hover:underline">Portfolio</a>
+    <a href="#" class="hover:underline">Blogs</a>
+    <a href="#" class="hover:underline">Contact Us</a>
+  </div>
 </footer>
 </body>
 </html>
