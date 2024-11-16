@@ -461,6 +461,18 @@
 
     <div class="p-8 rounded-lg shadow-lg text-black bg-white">
       <img src="./assets/article3.png" alt="Icon 1" class="">
+      
+      <div class="flex"> 
+        <div> <!-- Border wrapper -->
+        <img src="./assets/calendar.png" alt="Project Image" class="w-full h-48 object-cover rounded-md"> <!-- Fixed size -->
+          </div>
+          
+        <div> <!-- Border wrapper -->
+        <img src="./assets/calendar.png" alt="Project Image" class="w-full h-48 object-cover rounded-md"> <!-- Fixed size -->
+          </div>
+      </div>
+     
+
       <h3 class="text-2xl font-extrabold mb-2">Reflecting beauty within a living space</h3>
       <p>Todays article about a real-estate team<br>advancing their field with beautiful designs and structure.</p>
       <div class="Read_More_Button flex gap-2">
@@ -584,39 +596,32 @@
 <!-- Discuss Form Section -->
  <section>
   <div class="min-h-screen flex items-center justify-center bg-bgcolor my-2">
-    <form class="w-full max-w-lg bg-white p-8 space-y-4">
+    <form class="w-full max-w-5xl space-y-4">
       <!-- First Row: First Name & Last Name -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div>
-          <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
-          <input type="text" id="firstName" placeholder="First Name" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        </div>
-        <div>
-          <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
-          <input type="text" id="lastName" placeholder="Last Name" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        </div>
+          <input type="text" id="" placeholder="First Name*" class=" p-4 w-full border border-gray-300 rounded-2xl">
+          <input type="text" id="" placeholder="Last Name*" class=" p-4 w-full border border-gray-300 rounded-2xl">
       </div>
   
       <!-- Second Row: Phone Number & Email -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div>
-          <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
-          <input type="text" id="phone" placeholder="Phone Number" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        </div>
-        <div>
-          <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
-          <input type="email" id="email" placeholder="E-mail" class="mt-1 w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        </div>
+        <input type="text" id="" placeholder="Phone Number" class=" p-4 w-full border border-gray-300 rounded-2xl">
+        <input type="text" id="" placeholder="E-mail*" class=" p-4 w-full border border-gray-300 rounded-2xl">
       </div>
   
       <!-- Message Field -->
-      <div>
-        <label for="message" class="block text-sm font-medium text-gray-700">Write your message here</label>
-        <textarea id="message" placeholder="Write your message here" class="mt-1 w-full h-32 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
-      </div>
+       <textarea name="" placeholder="Write Your Message Here" id=""
+       class="mt-1 w-full h-32 p-2 border border-gray-300 rounded-2xl"></textarea>
+       
+      
   
       <!-- Send Button -->
-      <button type="submit" class="w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Send</button>
+      <a class="btn w-full py-2 px-4 rounded-[32px] bg-vectorcolor text-black lg:flex flex-row-reverse md:flex"><span class="bg-black rounded-3xl p-[2px]"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Group 1">
+        <path id="Vector" d="M12.0109 2.10278L1.00728 13.0991" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        <path id="Vector_2" d="M6.01123 1.23212C6.01123 1.23212 11.6449 0.759102 12.4996 1.6143C13.3542 2.4695 12.8773 8.10289 12.8773 8.10289" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        </svg></span>Send Mail</a>
     </form>
   </div>
   
