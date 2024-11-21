@@ -380,12 +380,15 @@
       <div class="bg-white p-[24px] rounded-md shadow-md">
         <img src="./assets/img2.png" alt="Project Image" class="w-full h-full object-cover rounded-md">
       </div>
+      <div class="bg-white p-[12px] border rounded shadow-md flex items-center justify-center hidden lg:hidden md:flex">
+        <img src="./assets/img3.png" alt="Project Image" class="object-cover h-50 w-50 rounded-md justify-center items-center">
+      </div>
     </div>
 
     <!-- Second Grid Container -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mt-2">
       
-      <div class="bg-white p-[12px] border rounded shadow-md flex items-center justify-center">
+      <div class="bg-white p-[12px] border rounded shadow-md flex items-center justify-center lg:flex md:hidden sm:flex">
         <img src="./assets/img3.png" alt="Project Image" class="object-cover h-50 w-50 rounded-md justify-center items-center">
       </div>
 
@@ -717,18 +720,64 @@
 <footer class="py-8 bg-black text-white">
   <!-- Centered Paragraph -->
   <div class="text-center mb-4">
-    <p class="text-lg">This is a sample footer text that runs in two lines.</p>
-    <p>Providing quality services for your design needs.</p>
+
+      <!-- Vector Symbol -->
+    <div class="flex justify-center gap-[8px]">
+      <div class="flex items-center justify-center p-4 bg-vectorcolor rounded-full text-black">
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 14 14"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="Group 1">
+            <path
+              id="Vector"
+              d="M12.007 2.05932L1.0033 13.0557"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <path
+              id="Vector_2"
+              d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+        </svg>
+      </div>
+    <!-- Vector Symbol End -->
+          <h1 class="text-[32px] font-[800]">Rinterio</h1>
+      </div>
+
+
+    <p class="text-[16px] font-[500] text-gray-300">See more about us from the links below.</p>
   </div>
 
   <!-- Navigation Links -->
-  <div class="flex flex-col justify-center lg:flex-row md:flex-row gap-8 space-x-6">
-    <a href="#" class="hover:underline">Home</a>
-    <a href="#" class="hover:underline">Service</a>
-    <a href="#" class="hover:underline">Portfolio</a>
-    <a href="#" class="hover:underline">Blogs</a>
-    <a href="#" class="hover:underline">Contact Us</a>
+  <div class="flex flex-col items-center justify-center lg:flex-row md:flex-row lg:gap-[120px] md:gap-5">
+    <a href="#" class="font-[400] text-[16px] text-gray-300">Home</a>
+    <a href="#" class="font-[400] text-[16px] text-gray-300">Service</a>
+    <a href="#" class="font-[400] text-[16px] text-gray-300">Portfolio</a>
+    <a href="#" class="font-[400] text-[16px] text-gray-300">Blogs</a>
+    <a href="#" class="font-[400] text-[16px] text-gray-300">Contact Us</a>
   </div>
+
+  <!-- Book Consult Button Start-->
+  <div class="flex justify-center my-3">
+  <a class="btn border-none rounded-[32px] bg-vectorcolor text-black lg:flex flex-row-reverse md:flex"><span class="bg-black rounded-3xl p-[2px] border-none"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Group 1">
+    <path id="Vector" d="M12.0109 2.10278L1.00728 13.0991" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <path id="Vector_2" d="M6.01123 1.23212C6.01123 1.23212 11.6449 0.759102 12.4996 1.6143C13.3542 2.4695 12.8773 8.10289 12.8773 8.10289" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    </svg></span>Book Consult</a>
+  </div> 
+<!--Book Consult Button End-->
+
 </footer>
 </body>
 </html>
